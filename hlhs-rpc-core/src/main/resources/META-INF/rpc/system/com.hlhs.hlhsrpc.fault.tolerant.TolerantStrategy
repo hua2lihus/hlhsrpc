@@ -1,0 +1,4 @@
+failBack=com.hlhs.hlhsrpc.fault.tolerant.FailBackTolerantStrategy
+failFast=com.hlhs.hlhsrpc.fault.tolerant.FailFastTolerantStrategy
+failOver=com.hlhs.hlhsrpc.fault.tolerant.FailOverTolerantStrategy
+failSafe=com.hlhs.hlhsrpc.fault.tolerant.FailSafeTolerantStrategy

@@ -1,0 +1,2 @@
+no=com.hlhs.hlhsrpc.fault.retry.NoRetryStrategy
+fixedInterval=com.hlhs.hlhsrpc.fault.retry.FixedIntervalRetryStrategy
