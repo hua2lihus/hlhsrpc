@@ -11,11 +11,12 @@ public class ExampleServicerImpl {
     private UserService userService;
 
 
-    public void test(){
+    public String test(){
         User user = new User();
         user.setName("张三1");
 
         User user1 = userService.getUser(user);
         System.out.println(user1.getName());
+        return user1.getName();
     }
 }

@@ -3,10 +3,11 @@
 
 > 简单配置即可使用
 ## 快速开始
-下载代码到本地后，install到本地仓库
+
 
 ### 引入依赖
-
+### 方式1，
+下载代码到本地后，install到本地仓库
 ```xml
         <dependency>
             <groupId>com.hlhs</groupId>
@@ -14,7 +15,15 @@
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 ```
-
+### 方式2
+无需下载代码
+```xml
+<dependency>
+    <groupId>io.github.hua2lihus</groupId>
+    <artifactId>hlhs-rpc-spring-boot-starter</artifactId>
+    <version>0.0.1</version>
+</dependency>
+```
 配置文件
 ```properties
 hlhsrpc.name=hlhs-rpc  
