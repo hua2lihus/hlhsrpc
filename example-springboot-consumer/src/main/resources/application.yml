@@ -1,0 +1,7 @@
+hlhsrpc:
+  name: comsumer
+  registryConfig:
+    address: http://47.93.39.10:2379
+    registry: etcd
+server:
+  port: 9999

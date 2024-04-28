@@ -21,7 +21,7 @@
 <dependency>
     <groupId>io.github.hua2lihus</groupId>
     <artifactId>hlhs-rpc-spring-boot-starter</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 配置文件
