@@ -1,0 +1,11 @@
+hlhsrpc:
+  name: hlhs-rpc11
+  registryConfig:
+    address: http://localhost:8888
+
+spring:
+  name: springhlhs
+  registryConfig:
+    address: http://localhost:9999
+  aaaa:
+    address: http://localhost:6666
